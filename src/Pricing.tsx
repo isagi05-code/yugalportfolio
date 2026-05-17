@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import type { ReactNode } from 'react';
-import { ArrowRight, Check } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: ReactNode, delay?: number, className?: string }) => (
   <motion.div
